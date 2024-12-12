@@ -1,0 +1,29 @@
+.dropdown-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dropdown-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #242424;
+}
+
+.dropdown-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-card-header-btns {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#grab-handle, #dropdown-up-arrow, #dropdown-down-arrow {
+    width: 50px;
+    height: 50px;
+}

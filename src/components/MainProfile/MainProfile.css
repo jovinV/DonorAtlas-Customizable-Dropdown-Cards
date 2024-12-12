@@ -1,0 +1,39 @@
+.main-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main-pfp-heading {
+    display: flex;
+    gap: 15px;
+}
+
+#main-pfp-pfp {
+    width: 80px;
+    height: 80px;
+}
+
+#main-pfp-heading-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#main-pfp-name {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+#main-pfp-location, #main-pfp-donates, #main-pfp-details {
+    font-size: 14px;
+    color: grey;
+}
+
+#main-pfp-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-right: 200px;
+}
